@@ -1,12 +1,28 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbarone, .navbartwo {
+  display:flex;
+  justify-content: center;
+   width: 100vw;
+  border-bottom: 1px solid #4E3E3E;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbarone {
+  background: linear-gradient(#cfcfcf, #faf7f7);
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.companyname, .contact {
+ color: #4E3E3E;
+}
+
+.contact {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.companyname {
+  font-size: 76px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
 }
