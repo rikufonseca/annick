@@ -6,11 +6,11 @@
 }
 
 .navbarone {
-  background: linear-gradient(#ccbdbd, #e9e2e2, #ffffff);
+  background: linear-gradient(#dbcfcf, #e9e2e2, #ffffff);
 }
 
 .navbartwo {
-   background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .companyname, .contact {
@@ -18,15 +18,20 @@
 }
 
 .contact {
-  font-size: 26px;
-  font-weight: 600;
-  margin: 5px;
+  font-weight: 500;
+  margin: 0.313rem;
 }
 
 .companyname {
-  font-size: 76px;
   font-weight: 500;
-  margin-top: 30px;
-  margin-bottom: 15px;
-
+  margin-top: 1.563rem;
+  margin-bottom: 0.938rem;
 }
+
+.nav {
+  position: sticky;
+  top: 0;
+}
+
+ @media (min-width: 340px) { .companyname {font-size: 2.75rem;}; .contact {font-size: 1.2rem;} }
+@media (min-width: 640px) { .companyname {font-size: 4.75rem;}; .contact {font-size: 1.625rem;} }
