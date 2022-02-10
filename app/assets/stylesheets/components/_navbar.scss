@@ -20,12 +20,14 @@
 .contact {
   font-weight: 500;
   margin: 0.313rem;
+  font-size: 1.625rem;
 }
 
 .companyname {
   font-weight: 500;
   margin-top: 1.563rem;
   margin-bottom: 0.938rem;
+  font-size: 4.75rem;
 }
 
 .nav {
@@ -33,5 +35,4 @@
   top: 0;
 }
 
- @media (min-width: 340px) { .companyname {font-size: 2.75rem;}; .contact {font-size: 1.2rem;} }
-@media (min-width: 640px) { .companyname {font-size: 4.75rem;}; .contact {font-size: 1.625rem;} }
+@media (min-width: 250px ) and (max-width: 50em ) { .companyname {font-size: 1.4rem;}; .contact {font-size: 1rem;} }
