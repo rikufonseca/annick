@@ -7,14 +7,16 @@
   flex-direction:column;
   justify-content:center;
   align-items:center;
+
   .intro {
-    font-size: larger;
+    font-size: 1.18em;
     font-weight: 500;
     text-align: center;
     line-height: 44px;
     width: fit-content;
     width: -moz-fit-content;
     Z-index:10;
+    margin-top: 35px;
   }
 
   .triangle {
@@ -27,10 +29,10 @@
       align-items:center;
       pointer-events:none;
       border-radius: 5px;
-      padding: 35px;
+      padding: 0 35px 35px 35px;
 
 
-        &.left{
+      &.left{
         clip-path: polygon(0 0, 0% 100%, 100% 100%);
       }
 
@@ -55,15 +57,13 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    left:calc(50% - 60px);
-    border: 1px solid rgba(223, 223, 180, 0.651);
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid #4E3E3E;
     color: #4E3E3E;
-    padding: 1.2em;
-    height: 5rem;
-    width: 5rem;
-    margin-top: 1.3em;
     border-radius: 50%;
-    background-color: rgba(223, 223, 180, 0.651);
+    background-color: rgba(223, 223, 180, 0.123);
     transition:all .8s cubic-bezier(0.645, 0.045, 0.355, 1),
                  transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955),
                  box-shadow .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -85,7 +85,32 @@
       }
 }
 
+.fa-solid {
+  display: flex !important;
+}
+
 .menu {
   display: flex;
   justify-content: center;
+  margin: 2em 0 4em 0;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 359px) { .contain { margin-top:28.5rem;} .effect { height: 2.3rem; width: 2.3rem; } .menu { margin: 1em 0 1em 0;} .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 3px !important; width: 80vw !important;} .effect {z-index: 15;}}
+
+//@media only screen and (min-width: 282px) and (max-width: 359px) { .contain { margin-top:69rem;} .effect { height: 2.3rem; width: 2.3rem; } .menu { margin: 1em 0 1em 0;} .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 0;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 360px) and (max-width: 374px)  { .contain { margin-top: 23.3rem;} .effect { height: 2.3rem; width: 2.3rem; } .menu { margin: 1em 0 1em 0;} .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 375px) and (max-width: 389px) { .contain { margin-top:22.5rem;} .effect { height: 2.3rem; width: 2.3rem; } .menu { margin: 1em 0 1em 0;} .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 390px) and (max-width: 460px) { .contain { margin-top:21rem;} .effect { height: 2.3rem; width: 2.3rem; } .menu { margin: 1em 0 1em 0;} .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 461px) and (max-width: 680px) { .contain { margin-top:36.2rem;} .effect { height: 3rem; width: 3rem; } .menu { margin: 1em 0 1em 0;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 681px) and (max-width: 900px) { .contain { margin-top:27rem;} .menu { margin: 1em 0 1em 0;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 681px) and (max-width: 1000px) { .contain { margin-top:24rem;} .menu { margin: 1em 0 1em 0;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 1001px) and (max-width: 1050px) { .contain { margin-top:20rem;} .menu { margin: 1em 0 1em 0;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
+
+@media only screen and (min-width: 1051px) and (max-width: 1281px) { .contain { margin-top:18rem;} .menu { margin: 1em 0 1em 0;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}

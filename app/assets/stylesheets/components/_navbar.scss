@@ -25,9 +25,9 @@
 
 .companyname {
   font-weight: 500;
-  margin-top: 1.563rem;
-  margin-bottom: 0.938rem;
-  font-size: 4.75rem;
+  margin-top: 1.7rem;
+  margin-bottom: 0.8rem;
+  font-size: 3.75rem;
 }
 
 .nav {
@@ -36,4 +36,9 @@
   z-index: 20;
 }
 
-@media (min-width: 250px ) and (max-width: 50em ) { .companyname {font-size: 1.4rem;}; .contact {font-size: 1rem;} }
+
+@media only screen and (min-width: 200px) and (max-width: 461px) {.companyname {font-size: 1.6rem;}; .contact {font-size: 1rem;} }
+
+@media only screen and (min-width: 768px) and (max-width: 840px)  { .contain { margin-top:28rem;}}
+
+@media only screen and (min-width: 462px) and (max-width: 767px) {.companyname {font-size: 2.2rem;}; .contact {font-size: 1.2rem;} }
