@@ -102,6 +102,8 @@
   transition:all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+
+
 @media only screen and (min-width: 200px) and (max-width: 359px) { .contain { margin-top:28.5rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 3px !important; width: 80vw !important;} .effect {z-index: 15;}}
 
 @media only screen and (min-width: 360px) and (max-width: 374px)  { .contain { margin-top: 23.3rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
