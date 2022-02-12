@@ -1,5 +1,5 @@
 .voyages-des-sens {
-  margin-top: 2.3rem;
+ margin-top: 2rem;
 }
 
 .grid {
@@ -16,23 +16,46 @@
   background-position: center;
 }
 
+.masseuse, .precautions, .ensemble {
+  width: 84.3vw;
+  height: 5rem;
+  border-radius: 10px;
+  margin: 1.3rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+}
+
+.masseuse {
+  background-color: #f8f6f694;
+}
+
+.precautions {
+  background-color: #D4EAA6;
+}
+
+.ensemble {
+  background-color: #988483;
+}
+
+.masseuse, .precautions, .ensemble, .massages, .huiles, .offres, .tarifs {
+  font-size: 1.5em;
+}
 
 .massages {
   background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335664/voyages-des-sens/massage_fzd0ot.jpg");
-  box-shadow: 2px 2px 2px #8f827e;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
 }
 
 .huiles {
   background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335577/voyages-des-sens/huiles_lwmywb.jpg");
-  box-shadow: 2px 2px 2px #8f827e;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
 }
 
 .tarifs {
   background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335615/voyages-des-sens/tarifs_qnd8fi.jpg");
-  box-shadow: 2px 2px 2px #8f827e;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
 }
 
 .offres {
   background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335604/voyages-des-sens/offres_fjhher.jpg");
-  box-shadow: 2px 2px 2px #8f827e;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
 }
