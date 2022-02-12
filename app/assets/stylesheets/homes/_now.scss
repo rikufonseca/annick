@@ -1,0 +1,38 @@
+.voyages-des-sens {
+  margin-top: 2.3rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
+.massages, .huiles, .tarifs, .offres {
+  border-radius: 10px;
+  height: 15rem;
+  margin: 1.3rem;
+  width: 40vw;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.massages {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335664/voyages-des-sens/massage_fzd0ot.jpg");
+  box-shadow: 2px 2px 2px #8f827e;
+}
+
+.huiles {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335577/voyages-des-sens/huiles_lwmywb.jpg");
+  box-shadow: 2px 2px 2px #8f827e;
+}
+
+.tarifs {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335615/voyages-des-sens/tarifs_qnd8fi.jpg");
+  box-shadow: 2px 2px 2px #8f827e;
+}
+
+.offres {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335604/voyages-des-sens/offres_fjhher.jpg");
+  box-shadow: 2px 2px 2px #8f827e;
+}
