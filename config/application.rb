@@ -1,4 +1,4 @@
-require_relative "boot"
+Prequire_relative "boot"
 
 require "rails/all"
 
