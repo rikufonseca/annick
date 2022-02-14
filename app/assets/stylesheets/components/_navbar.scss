@@ -18,14 +18,21 @@
 .contact {
   font-weight: 500;
   margin: 0.313rem;
-  font-size: 1.625rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact:hover {
+  color: inherit;
+  transform: scale(1.1);
 }
 
 .companyname {
   font-weight: 500;
   margin-top: 1.7rem;
   margin-bottom: 0.8rem;
-  font-size: 3.75rem;
+  font-size: 3.4rem;
 }
 
 .nav {
