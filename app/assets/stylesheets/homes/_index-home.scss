@@ -1,5 +1,7 @@
 // Specific CSS for your home-pagpho
-#page-one {
+.page-one {
+  position: absolute;
+  width: 100vw;
   height: 82vh;
   background-image: url('https://res.cloudinary.com/rikufonseca/image/upload/v1644407100/voyages-des-sens/backgroundpicture2_zztdnq.jpg');
   background-size: cover;
@@ -13,7 +15,7 @@
       }
 
   &.open{
-    #page-one {
+    .page-one {
       &.left{
         clip-path: polygon(0 0, 0 100%, 0 100%);
       }
@@ -22,7 +24,7 @@
       }
     }
   }
-    .contain {
+    #contain {
     width:100%;
     margin-top:16rem;
     left:0;
@@ -95,28 +97,28 @@
     display: flex !important;
   }
 
-  .menu {
+  #menu {
     display: flex;
     justify-content: center;
   }
 
-@media only screen and (min-width: 200px) and (max-width: 359px) { .contain { margin-top:28rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 3px !important; width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 200px) and (max-width: 359px) { #contain { margin-top:28rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 3px !important; width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 360px) and (max-width: 374px)  { .contain { margin-top: 23.3rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 360px) and (max-width: 374px)  { #contain { margin-top: 23.3rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 375px) and (max-width: 389px) { .contain { margin-top:22.5rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 375px) and (max-width: 389px) { #contain { margin-top:22.5rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 390px) and (max-width: 460px) { .contain { margin-top:21rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 390px) and (max-width: 460px) { #contain { margin-top:21rem;} .effect { height: 2.3rem; width: 2.3rem; } .intro {line-height: 2em !important; font-size: 0.9em !important;} .triangle { padding: 5px !important; width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 461px) and (max-width: 680px) { .contain { margin-top:36.2rem;} .effect { height: 3rem; width: 3rem; } .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 461px) and (max-width: 680px) { #contain { margin-top:36.2rem;} .effect { height: 3rem; width: 3rem; } .triangle { width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 681px) and (max-width: 900px) { .contain { margin-top:27rem;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 681px) and (max-width: 900px) { #contain { margin-top:27rem;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 681px) and (max-width: 1000px) { .contain { margin-top:24rem;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 681px) and (max-width: 1000px) { #contain { margin-top:24rem;} .triangle { width: 80vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 1001px) and (max-width: 1050px) { .contain { margin-top:20rem;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 1001px) and (max-width: 1050px) { #contain { margin-top:20rem;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
 
-@media only screen and (min-width: 1051px) and (max-width: 1281px) { .contain { margin-top:18rem;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
+@media only screen and (min-width: 1051px) and (max-width: 1281px) { #contain { margin-top:18rem;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
 
 }
 
@@ -124,10 +126,17 @@
  margin-top: 3rem;
  display: grid;
  row-gap: 3rem;
- display: none;
+ visibility: hidden;
  position:fixed;
  top:0;
  left:0;
+
+ &.open{
+    .voyages-des-sens {
+       visibility: visible;
+       transition: opacity 2s linear;
+    }
+  }
 }
 
 .grid {

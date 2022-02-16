@@ -1,17 +1,19 @@
+// click on desktop and touch on mobile on the button
+// connecter le button a la page-one et le container
+// when click the triangle left and right open
+//display voyage des sens div
+// and the page open as well
 
+//classList.toggle('open')page.classList.toggle('open')
+ // ("click", e => {...}, { capture: true})
 export function home() {
-  const button = document.querySelector("#button");
-  const triangle = document.querySelectorAll(".contain");
-  const page = document.querySelector("#page-one");
 
-  console.log(button);
-  console.log(triangle);
-  console.log(page);
-  console.log("coucocu")
+  let elements = document.querySelectorAll(".elements");
+  let button = document.getElementById("button");
 
-  button.addEventListener('click', (open) => {
-    open.currentTarget.classList.toggle(triangle).contains('.open')
-    open.currentTarget.classList.toggle(page).contains('.open')
-    open.preventDefault()
+  button.addEventListener("click", () => {
+    elements.forEach(element => {
+      element.classList.toggle('open')
+    })
   });
 }
