@@ -1,29 +1,19 @@
 // Specific CSS for your home-pagpho
-.page-one {
-  position: absolute;
-  width: 100vw;
-  height: 82vh;
-  background-image: url('https://res.cloudinary.com/rikufonseca/image/upload/v1644407100/voyages-des-sens/backgroundpicture2_zztdnq.jpg');
-  background-size: cover;
-  transition:all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
-      &.left{
-        clip-path: polygon(0 0, 0% 100%, 100% 100%);
-      }
-
-      &.right{
-        clip-path: polygon(100% 0, 0 0, 100% 100%);
-      }
-
-  &.open{
-    .page-one {
-      &.left{
-        clip-path: polygon(0 0, 0 100%, 0 100%);
-      }
-      &.right{
-        clip-path: polygon(100% 0, 100% 0, 100% 100%);
-      }
-    }
+  .page-one {
+    display: block;
+    width: 100vw;
+    height: 82vh;
+    background-image: url('https://res.cloudinary.com/rikufonseca/image/upload/v1644407100/voyages-des-sens/backgroundpicture2_zztdnq.jpg');
+    background-size: cover;
+    transition: all 2s linear;
   }
+
+  .hidden {
+    display: none;
+  }
+
+  .visuallyhidden { opacity: 0; }
+
     #contain {
     width:100%;
     margin-top:16rem;
@@ -120,23 +110,12 @@
 
 @media only screen and (min-width: 1051px) and (max-width: 1281px) { #contain { margin-top:18rem;} .triangle { width: 85vw !important;} .effect {z-index: 15;}}
 
-}
 
 .voyages-des-sens {
  margin-top: 3rem;
  display: grid;
  row-gap: 3rem;
- visibility: hidden;
- position:fixed;
- top:0;
- left:0;
-
- &.open{
-    .voyages-des-sens {
-       visibility: visible;
-       transition: opacity 2s linear;
-    }
-  }
+ width: 100vw;
 }
 
 .grid {
