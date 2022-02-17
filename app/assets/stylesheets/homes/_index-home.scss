@@ -113,9 +113,11 @@
 
 #voyages-des-sens {
   position: fixed;
-  top:0;
+  top: 152px;
   left:0;
-  transition: all 3s linear;
+  height: 100vh;
+  overflow-y: auto;
+  // transition: all 3s linear;
 }
 
 .slow-process {
@@ -126,8 +128,26 @@
   display: none;
 }
 
+.newpage {
+  position: fixed;
+  top:0;
+  left:0;
+  transition: all 3s linear;
+}
+
 .visuallyshow {
-  display: block;
+  animation: fadein 3s;
+  transition: all 3s linear;
+  background-repeat: no-repeat;
+}
+
+@keyframes fadein {
+  from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 .container {
