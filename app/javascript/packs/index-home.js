@@ -20,30 +20,30 @@ export function home() {
 // make page one hidden gradually
   function moveTwoDelay () {
     function moveTwo () {
-      if (hidePage.classList.contains('hidden')) {
-        hidePage.classList.remove('hidden');
-        setTimeout(function () {
-          hidePage.classList.remove('visuallyhidden');
-        }, 10);
-      } else {
+     // if (hidePage.classList.contains('hidden')) {
+     //   hidePage.classList.remove('hidden');
+     //   setTimeout(function () {
+      //    hidePage.classList.remove('visuallyhidden');
+    //    }, 10);
+    //  } else {
         hidePage.classList.add('visuallyhidden');
         hidePage.addEventListener('transitioned', function (e){
           hidePage.classList.add('hidden');
-        });
-      }
+        }, 20);
+   //   }
     };
-    setTimeout(moveTwo, 1000);
+    setTimeout(moveTwo, 2000);
   };
 
 //move page-one in html down to voyages-des-sens page
   function moveDownDelay () {
     function moveDownDiv () {
      const here = document.querySelector('.here');
-     here.innerHTML = "";
-    //  const pageOne = here.children;
-    //  const there = document.createElement("div");
-    //  there.className = "there";
-    //  there.innerHTML = pageOne;
+    // here.innerHTML = "";
+     const pageOne = here.children;
+     const there = document.createElement("div");
+      there.className = "there";
+      there.innerHTML = pageOne;
     //  document.body.appendChild(there);
     };
     setTimeout(moveDownDiv, 1100);
