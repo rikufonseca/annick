@@ -34,10 +34,11 @@ export function home() {
     function moveThree() {
       if (hidePage.classList.contains('visuallyhidden')) {
         homePage.classList.add('visuallyshow');
-      };
-    }
+      }
+    };
     setTimeout(moveThree, 1300);
   };
+
 
     //get all the moves and connect it to the button
   const ready = function allMoves () {
