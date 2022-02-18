@@ -22,9 +22,9 @@ export function home() {
   function moveTwoDelay() {
     function moveTwo() {
       hidePage.classList.add('visuallyhidden');
-      hidePage.addEventListener('transitioned', function (e) {
+      hidePage.addEventListener('transitionend', function (e) {
         hidePage.classList.add('hidden');
-      }, 5);
+      });
     };
     setTimeout(moveTwo, 1000);
   };
@@ -33,12 +33,10 @@ export function home() {
   function moveThreeDelay() {
     function moveThree() {
       if (hidePage.classList.contains('visuallyhidden')) {
-        hidePage.remove();
         homePage.classList.add('visuallyshow');
-        homePage.classList.remove('play');
       };
     }
-    setTimeout(moveThree, 2000);
+    setTimeout(moveThree, 1300);
   };
 
     //get all the moves and connect it to the button
