@@ -10,7 +10,7 @@
       Massothérapeute, je me déplace à votre domicile pour vous offrir mon professionnalisme au service de votre détente, de votre relaxation et surtout du soin dont vous avez besoin.
       Par un moment de lâchez prise, juste pour vous, un cadeau pour prendre soin de vous et pour vous faire plaisir.  Inutile de prendre votre voiture, votre bien-être vient directement à vous, sans subir de tensions, de stress des embouteillages ni le bruit des transports.
       Avant, pendant, après vous allez privilégier un moment pour profiter au maximum de cet instant de calme, de détente et de repos. Restez chez soi est l’expression du luxe ultime, le faste d’un soin professionnel à domicile.
-      </p>
+
     </div>
     <div class="triangle right elements">
       <p class="intro elements"> Laissez-vous transporter dans un voyage loin du tumulte, du brouhaha de la vie, et laissez derrière vous les tensions et le stress du quotidien. Venez découvrir votre oasis de paix et retrouver votre bien-être.
@@ -19,42 +19,56 @@
       Massothérapeute, je me déplace à votre domicile pour vous offrir mon professionnalisme au service de votre détente, de votre relaxation et surtout du soin dont vous avez besoin.
       Par un moment de lâchez prise, juste pour vous, un cadeau pour prendre soin de vous et pour vous faire plaisir.  Inutile de prendre votre voiture, votre bien-être vient directement à vous, sans subir de tensions, de stress des embouteillages ni le bruit des transports.
       Avant, pendant, après vous allez privilégier un moment pour profiter au maximum de cet instant de calme, de détente et de repos. Restez chez soi est l’expression du luxe ultime, le faste d’un soin professionnel à domicile.
-      </p>
+
     </div>
   </div>
 </div>
 <div id="voyages-des-sens" class="play" >
-<div class="container">
-  <div class="grid">
-    <div class="g-col-12 g-col-md-6 massages">
-      <p class="massage"> Les Differents Massages </p>
+  <div class="container">
+    <div class="grid">
+      <div class="g-col-12 g-col-md-6">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="massage massages"> Les Différents Massages </button>
+        <% end %>
+      </div>
+      <div class="g-col-12 g-col-md-6">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="huile huiles"> Les Huiles <br> & <br> Leurs Bienfaits </button>
+        <% end %>
+      </div>
     </div>
-    <div class="g-col-12 g-col-md-6 huiles">
-      <p class="huile"> Les Huiles <br> & <br> Leurs Bienfaits </p>
+    <div class="grid">
+      <div class="g-col-12 g-col-md-6">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="tarif tarifs"> Tarifs </button>
+        <% end %>
+      </div>
+      <div class="g-col-12 g-col-md-6">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="offre offres"> Offres <br> & <br> Cadeaux </button>
+        <% end %>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="g-col-12">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="qui masseuse"> Qui Suis-Je ? </button>
+        <% end %>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="g-col-12">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="indication precautions"> Précautions & Contre-Indications Massage </button>
+        <% end %>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="g-col-12">
+        <%= link_to massages_path, class: 'link' do %>
+          <button class="ensemble"> Ensemble Contre La Covid </button>
+        <% end %>
+      </div>
     </div>
   </div>
-  <div class="grid">
-    <div class="g-col-12 g-col-md-6 tarifs">
-      <p class="tarif"> tarifs </p>
-    </div>
-    <div class="g-col-12 g-col-md-6 offres">
-       <p class="offre"> Offres <br> & <br> Cadeaux </p>
-    </div>
-  </div>
-  <div class="grid">
-    <div class="g-col-12 masseuse">
-      <p class="qui"> Qui Suis-Je ? </p>
-    </div>
-  </div>
-  <div class="grid">
-    <div class="g-col-12 precautions">
-      <p class="indication"> Precautions & Contre-Indications Massage </p>
-    </div>
-  </div>
-  <div class="grid">
-    <div class="g-col-12 ensemble">
-      <p class="covid"> Ensemble Contre La Covid </p>
-    </div>
-  </div>
-</div>
 </div>

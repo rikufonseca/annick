@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Massage.destroy_all
+
+puts "start processing seeding"
+
+#Massage.create(name: ,
+            #  price: ,
+             # description: "19 Rue Grignan 13006 Marseille")
