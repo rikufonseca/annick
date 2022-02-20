@@ -15,7 +15,7 @@
     display: block;
     width: 100vw;
     height: 82vh;
-    transition: all 2s linear;
+    transition: all 5ms linear;
   }
 
   .hidden {
@@ -137,12 +137,12 @@
 }
 
 .visuallyshow {
-  animation: fadein ease-in 7s 850ms;
+  animation: fadein ease-in 850ms;
   display: block;
-  -webkit-animation: fadein ease-in 7s 850ms; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein ease-in 7s 850ms; /* Firefox < 16 */
-  -ms-animation: fadein ease-in 7s 850ms; /* Internet Explorer */
-  -o-animation: fadein ease-in 7s 850ms; /* Opera < 12.1 */
+  -webkit-animation: fadein ease-in 1000ms; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein ease-in 1000ms; /* Firefox < 16 */
+  -ms-animation: fadein ease-in 1000ms; /* Internet Explorer */
+  -o-animation: fadein ease-in 1000ms; /* Opera < 12.1 */
 }
 
 @keyframes fadein {

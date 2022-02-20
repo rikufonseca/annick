@@ -26,7 +26,7 @@ export function home() {
         hidePage.classList.add('hidden');
       });
     };
-    setTimeout(moveTwo, 1000);
+    setTimeout(moveTwo,1000);
   };
 
 //make voyages-des-sens show up gradually
@@ -36,7 +36,7 @@ export function home() {
         homePage.classList.add('visuallyshow');
       }
     };
-    setTimeout(moveThree, 1300);
+    setTimeout(moveThree, 1100);
   };
 
 
