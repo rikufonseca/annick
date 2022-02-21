@@ -34,6 +34,7 @@ export function home() {
     function moveThree() {
       if (hidePage.classList.contains('visuallyhidden')) {
         homePage.classList.add('visuallyshow');
+      //  hidePage.destroy('page-one');
       }
     };
     setTimeout(moveThree, 1100);
