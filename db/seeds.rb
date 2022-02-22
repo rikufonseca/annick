@@ -9,7 +9,7 @@ Mesotherapie.destroy_all
 
 puts "start processing seeding"
 
-m1= Mesotherapie.create!(name: "LOMI-LOMI",
+m1= Mesotherapie.create!(name: "Lomi-Lomi",
                     price_one: "65",
                     price_two: "85",
                     time_one: "1heure",
@@ -47,7 +47,7 @@ Lors de votre voyage, les parties du corps sont massées avec les paumes des mai
 Plus qu’un massage, le Lomi-Lomi est une exploration, une véritable sensation de renaissance.
 C’est un voyage d’où l’on revient transformé et apaisé.")
 
-m2= Mesotherapie.create!(name: "PIERRES CHAUDES",
+m2= Mesotherapie.create!(name: "Pierres Chaudes",
                     price_one: "75",
                     price_two: "105",
                     time_one: "1heure",
@@ -89,7 +89,7 @@ Lors de votre voyage, les parties du corps sont massées avec des pierres chaude
 C’est un soin qui permet un relâchement immédiat des tensions.
 C’est un voyage d’où l’on revient énergiquement rechargé.")
 
-m3= Mesotherapie.create!(name: "BALINAIS",
+m3= Mesotherapie.create!(name: "Balinais",
                     price_one: "65",
                     price_two: "85",
                     time_one: "1heure",
@@ -122,7 +122,7 @@ Vous êtes confortablement installée dans un environnement ou tous vos sens von
 Laissez-vous transporter et bercé par de douces sensations de vagues successives
 C’est un voyage d’où l’on revient ressourcé")
 
-m4= Mesotherapie.create!(name: "CALIFORNIEN",
+m4= Mesotherapie.create!(name: "Californien",
                     price_one: "65",
                     price_two: "85",
                     time_one: "1heure",

@@ -1,0 +1,102 @@
+#page-menu {
+  position: fixed;
+  left:0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.container {
+ width: 100vw;
+ margin-top: 3rem;
+ row-gap: 3rem;
+ display: grid;
+ margin-bottom: 10rem;
+}
+
+.grid {
+  display: grid;
+  place-self: center;
+  column-gap: 3rem;
+}
+
+.massages, .huiles, .tarifs, .offres {
+  border-radius: 10px;
+  border: none;
+  height: 15rem;
+  width: 40vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.masseuse, .precautions, .ensemble {
+  width: 84.3vw;
+  height: 5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.masseuse {
+  background-color: #f8f6f694;
+}
+
+.precautions {
+  background-color: #c4d999cc;
+}
+
+.ensemble {
+  background-color: #cdbab9;
+  margin-bottom: 3.5rem;
+}
+
+.masseuse, .precautions, .ensemble, .massages, .huiles, .offres, .tarifs {
+  font-size: 1.5em;
+}
+
+.massages {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335664/voyages-des-sens/massage_fzd0ot.jpg");
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  display: grid;
+  justify-items: start;
+  align-items: end;
+  padding: 0 0 1.7em 3em;
+}
+
+.huiles {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335577/voyages-des-sens/huiles_lwmywb.jpg");
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  display: grid;
+  justify-items: end;
+  align-items:center;
+  text-align: center;
+  padding: 32px 59px 104px 0;
+}
+
+.tarifs {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335615/voyages-des-sens/tarifs_qnd8fi.jpg");
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  display: grid;
+  justify-items: end;
+  padding: 1.8em 6.4em 0 0;
+}
+
+.offres {
+  background-image: url("https://res.cloudinary.com/rikufonseca/image/upload/v1644335604/voyages-des-sens/offres_fjhher.jpg");
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
+  text-align: center;
+  align-items: center;
+  display: grid;
+  justify-items: start;
+  padding: 0em 0 0.5em 1.2em;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 359px) { .massages, .huiles, .tarifs, .offres { width: 90vw; height: 6rem; font-size: 0.85em } .grid {column-gap: 1rem;} .container {margin-bottom: 3rem; row-gap: 1rem;} #voyages-des-sens { top: 83px;} .masseuse, .precautions, .ensemble, .massages,.offres { border-radius: 5px; background-position-y: -3em; justify-items: center; display: grid; align-items: center; justify-items: start;} .huiles { border-radius: 5px; display: grid; padding: 0 6px 20px 0px;} .masseuse, .ensemble {width: 90vw; height: 2.5rem; justify-items: center; } .precautions {width: 90vw; height: 5rem; text-align: center;}.back { background-size: auto 700px;} .masseuse, .precautions, .ensemble {font-size: 0.85rem;} .massages {padding: 65px 0 0px 9px;}}
+
+@media only screen and (min-width:360px) and (max-width: 767px) {.precautions { text-align: center;}.massages, .huiles, .tarifs, .offres { width: 90vw; height: 6rem;} .grid {column-gap: 1rem;} .container {row-gap: 2rem; margin-bottom: 11rem;} #voyages-des-sens { top: 83px;} .masseuse, .precautions, .ensemble, .massages,.offres, .tarifs {font-size: 1em;}.massages { border-radius: 5px; padding: 1px 104px 1px 8px; justify-items: center; text-align: center;} .offres { display: grid; align-items: center; justify-items: start; background-position: 1% 66%;} .huiles {border-radius: 5px; padding: 0px 9px 27px 0px; font-size: 0.85em; background-position: 1% 64%;}.masseuse, .ensemble {width: 90vw; height: 2.5rem; } .precautions {width: 90vw; height: 3.5rem;}.back { background-size: auto 700px;} .tarifs { padding: 0.5em 5.4em 0 0;}}
+
+@media only screen and (min-width: 768px) and (max-width: 819px) {.offres { display: grid; justify-items: center; padding: 0px 0px 117px 0px;} .huiles { justify-items: end; align-items: end; border-radius: 5px; padding: 0px 7px 117px;} .massages { border-radius: 5px; padding: 0px 72px 23px 0px;}.back { background-size: 100% 800px; text-align: center;} .massages, .huiles, .tarifs, .offres, .masseuse, .precautions, .ensemble { font-size: 1.3em;} .tarifs { padding: 2.8em 2.4em 0 0;}.container { margin-bottom: 24rem;}}
+
+@media only screen and (min-width: 820px) and (max-width: 1100px) {.offres { display: grid; justify-items: center; padding: 0px 0px 117px 0px;} .huiles { justify-items: end; align-items: end; border-radius: 5px; padding: 0px 7px 117px;} .massages { border-radius: 5px; padding: 0px 56px 22px 10px;}.back { background-size: 100% 800px; text-align: center;} .massages, .huiles, .tarifs, .offres, .masseuse, .precautions, .ensemble { font-size: 1.3em;} .tarifs { padding: 2.8em 2.4em 0 0;}.container { margin-bottom: 45rem;}}

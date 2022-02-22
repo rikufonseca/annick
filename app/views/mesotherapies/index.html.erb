@@ -1,6 +1,14 @@
-<% @mesotherapies.each do |massage| %>
-<%= massage.name %>
-<% end %>
+<div class="nav-attached">
+  <% @mesotherapies.each do |mesotherapy| %>
+    <div class="row align-items-start">
+      <div class="col-3 col-sm-12">
+        <%= link_to mesotherapy_path(mesotherapy), class: 'button-meso' do %>
+          <button class="name"> <%= mesotherapy.name %> </button>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
 <div class="all">
   <div class="cont">
     <h2 class="subtitle"> La massothérapie pour se détendre </h2>
@@ -12,4 +20,4 @@
     <p class="text">La massothérapie recouvre une grande diversité de techniques, c’est pourquoi le déroulement des séances varie de façon considérable. En effet, selon la technique employée, le massage peut s’exercer sur une personne dénudée ou habillée, en position couchée ou assise, avec ou sans huile. Il être effectué sur plusieurs types de supports : table de massage, futon posé au sol, chaise ergonomique. Quant aux lieux de massages, ceux-ci sont également très divers : centres, groupements de thérapeutes, à domicile, au travail, en cabinet privé… L'environnement et le contexte (confort de la pièce, du matériel de massage, luminosité, bruits) sont très importants et ont une très grande influence sur le bon déroulement du massage.</p>
   </div>
 </div>
-<%= link_to "< retour", root_path %>
+<%= link_to "< retour", menu_path %>

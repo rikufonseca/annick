@@ -4,6 +4,6 @@ class MesotherapiesController < ApplicationController
   end
 
   def show
-    @mesotherapie = Mesotherapie.find(params[id])
+    @mesotherapie = Mesotherapie.find(params[:id])
   end
 end

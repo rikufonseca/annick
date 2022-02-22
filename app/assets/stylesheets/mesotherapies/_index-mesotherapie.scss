@@ -1,3 +1,29 @@
+.nav-attached {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 100vw;
+  border-bottom: 1px solid #4E3E3E;
+}
+
+.button-meso {
+  text-decoration: none;
+  color: inherit;
+}
+
+.name {
+  background-color: #C4C4C4;
+  padding: 5px 7px 5px 7px;
+  color: #4E3E3E;
+  font-weight: bolder;
+  font-size: 1rem;
+  width: 168.67px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
 .all {
   display:flex;
   flex-direction: column;
