@@ -29,7 +29,7 @@
 
     #contain {
     width:100%;
-    margin-top:17rem;
+    margin-top:19rem;
     left:0;
     display:flex;
     flex-direction:column;
@@ -48,7 +48,7 @@
 
     .triangle {
         position: absolute;
-        width: 75vw;
+        width: 65vw;
         background: radial-gradient( #f8f6f6d3 10%, #ffffff18);
         transition:all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
         display:flex;
@@ -86,8 +86,8 @@
       justify-content: center;
       align-items: center;
       margin-top: 1.3em;
-      height: 4rem;
-      width: 4rem;
+      height: 3.2rem;
+      width: 3.2rem;
       border: 1px solid #4E3E3E;
       color: #4E3E3E;
       border-radius: 50%;

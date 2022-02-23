@@ -46,6 +46,9 @@ Vous êtes confortablement installée dans un environnement ou tous vos sens von
 Lors de votre voyage, les parties du corps sont massées avec les paumes des mains, les avant-bras, les coudes, les poings, les pouces et le bout des doigts. Le changement constants de styles de touchers tantôt petits et en cercle, tantôt longs et fluides et néanmoins profonds, associé à de longs glissés, à des frictions à des pétrissages et étirements vous transporte dans un pur moment de relaxation, de détente profonde, de plaisir des sens et d’une sensation de vagues douces et enveloppantes.
 Plus qu’un massage, le Lomi-Lomi est une exploration, une véritable sensation de renaissance.
 C’est un voyage d’où l’on revient transformé et apaisé.")
+url1 = "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg"
+file = URI.open(url1)
+m1.photo.attach.save(io: file, filename: 'file.jpg', content_type: 'image/jpg')
 
 m2= Mesotherapie.create!(name: "Pierres Chaudes",
                     price_one: "75",
@@ -157,5 +160,13 @@ Vous êtes confortablement installée dans un environnement ou tous vos sens von
 •	Un réveil progressif pour votre retour à vos sensations dans l’ici-et-maintenant. Un temps pour vous, vous est ensuite proposé pour exprimer vos ressentis lors de ce voyage.
 Vous plongerez dans une relaxation douce et profonde
 C’est un voyage ou l’on revient recentré sur son état intérieur")
+
+m4= Mesotherapie.create!(name: "Personalise",
+                    price_one: "65",
+                    price_two: "85",
+                    time_one: "1heure",
+                    time_two: "1h30",
+                    explanation: "SON ORIGINE
+Dans les années 1970 régnait l’atmosphère du New âge, propre à la Californie.")
 
 puts "seeds finished"
