@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 Mesotherapie.destroy_all
 
 puts "start processing seeding"
@@ -14,6 +7,7 @@ m1= Mesotherapie.create!(name: "Lomi-Lomi",
                     price_two: "85",
                     time_one: "1heure",
                     time_two: "1h30",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
                     explanation: "FLUIDE ET PROFOND - UNIFIANT ET PROTECTEUR.
 SON ORIGINE
 Comme le massage Ayurvédique, le massage Lomi-Lomi plonge ses racines dans des traditions millénaires. En provenance des îles Hawaï, il constitue l’une des branches de la médecine des guérisseurs polynésiens. Le terme « Lomi » signifie simplement « massage » le doublement du mot n’ayant en hawaïen pour but que d’insister sur son efficacité et son intensité.
@@ -46,15 +40,13 @@ Vous êtes confortablement installée dans un environnement ou tous vos sens von
 Lors de votre voyage, les parties du corps sont massées avec les paumes des mains, les avant-bras, les coudes, les poings, les pouces et le bout des doigts. Le changement constants de styles de touchers tantôt petits et en cercle, tantôt longs et fluides et néanmoins profonds, associé à de longs glissés, à des frictions à des pétrissages et étirements vous transporte dans un pur moment de relaxation, de détente profonde, de plaisir des sens et d’une sensation de vagues douces et enveloppantes.
 Plus qu’un massage, le Lomi-Lomi est une exploration, une véritable sensation de renaissance.
 C’est un voyage d’où l’on revient transformé et apaisé.")
-url1 = "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg"
-file = URI.open(url1)
-m1.photo.attach.save(io: file, filename: 'file.jpg', content_type: 'image/jpg')
 
 m2= Mesotherapie.create!(name: "Pierres Chaudes",
                     price_one: "75",
                     price_two: "105",
                     time_one: "1heure",
                     time_two: "1h30",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
                     explanation: "ENERGETIQUE, DRAINANT ET RELAXANT
 Les pierres que j’utilise sont des pierres originaires des montagnes des Andes de l’Amérique du Sud
 SON ORIGINE
@@ -97,6 +89,7 @@ m3= Mesotherapie.create!(name: "Balinais",
                     price_two: "85",
                     time_one: "1heure",
                     time_two: "1h30",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
                     explanation: "DOUX ET TONIQUE - RELAXANT ET ENERGETIQUE
 SON ORIGINE
 Le massage Balinais a ses origines dans l’île exotique de Bali, appelée également l’ile des Dieux, l’une des 17.508 iles qui composent l’archipel indonésien. C’est une douce combinaison entre le massage indien issu de la médecine ayurvédique et le massage chinois issu de la médecine énergétique chinoise. Nous devons garder à l’esprit que Bali avait déjà son propre système de médecine traditionnelle, appelé Jamu, que ses habitants se sentaient plus  beau et en bonne santé, à la fois intérieurement et extérieurement.
@@ -130,6 +123,7 @@ m4= Mesotherapie.create!(name: "Californien",
                     price_two: "85",
                     time_one: "1heure",
                     time_two: "1h30",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
                     explanation: "SON ORIGINE
 Dans les années 1970 régnait l’atmosphère du New âge, propre à la Californie.
 Inscrite dans cette quête de bien-être, d’hédonisme et de reconnexion du corps et de l’esprit, le mouvement a participé à la naissance du massage Californien. Inspiré du massage Suédois, c’est à partir des années 1980, en Europe que sa pratique s’est surtout répandue. Il constitue une porte d’entrée idéale au monde merveilleux des massages pour celui ou celle qui n’a pas l’habitude d’avoir son corps manipulé.
@@ -161,12 +155,12 @@ Vous êtes confortablement installée dans un environnement ou tous vos sens von
 Vous plongerez dans une relaxation douce et profonde
 C’est un voyage ou l’on revient recentré sur son état intérieur")
 
-m4= Mesotherapie.create!(name: "Personalise",
+m5= Mesotherapie.create!(name: "Personalise",
                     price_one: "65",
                     price_two: "85",
                     time_one: "1heure",
                     time_two: "1h30",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
                     explanation: "SON ORIGINE
 Dans les années 1970 régnait l’atmosphère du New âge, propre à la Californie.")
-
 puts "seeds finished"
