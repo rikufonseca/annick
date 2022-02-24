@@ -5,7 +5,7 @@
   background-color: #ffffff;
   width: 1519.2px;
   border-bottom: 1px solid #4E3E3E;
-  column-gap: 44px;
+  column-gap: 60px;
   position: fixed;
 }
 
@@ -71,3 +71,8 @@
 .first-cont {
   margin-top: 4rem;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 359px) {.nav-attached { flex-direction: column;} .name { width: 100vw; margin: 0; border-radius: 0; border-bottom: 1px solid #4E3E3E; background:linear-gradient(#dbcfcf, #e9e2e2, #ffffff)}.page-back { margin: 8.5rem 0 0 0.5rem;}}
+@media only screen and (min-width:360px) and (max-width: 767px) {}
+@media only screen and (min-width: 768px) and (max-width: 819px) {}
+@media only screen and (min-width: 820px) and (max-width: 1100px) {}

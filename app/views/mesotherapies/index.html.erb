@@ -1,12 +1,8 @@
 <div class="nav-attached">
   <% @mesotherapies.each do |mesotherapy| %>
-    <div class="row align-items-start">
-      <div class="col-3 col-sm-12">
         <%= link_to mesotherapy_path(mesotherapy), class: 'button-meso' do %>
           <button class="name"> <%= mesotherapy.name %> </button>
         <% end %>
-      </div>
-    </div>
   <% end %>
 </div>
 <div class="all">
