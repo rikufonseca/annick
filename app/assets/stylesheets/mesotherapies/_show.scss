@@ -41,3 +41,7 @@
 .section {
   margin-top: -16px;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 910px) {.nav-attached { flex-direction: column; border-bottom: none;} .name { width: 100vw; margin: 0; border-radius: 0; border-bottom: 1px solid #4E3E3E; background: linear-gradient(#dbcfcf, #e9e2e2, #ffffff)}.page-back { margin: 8.5rem 0 0 0.5rem; font-size: 12px;} .descript { margin-top: 124px; margin-bottom: -70px;}.cont { padding: 2px; line-height: normal; font-size: 1em;} .first-cont { margin-top: 4rem;} .second-cont {margin-top: 1rem;} .pic { width: 193px; height: 132px; float:none; margin-top: 32px; margin-left: 0; margin-bottom: 24px;} .duration { font-size: 1rem; margin-top: -11px; margin-bottom: 1px;} .and { text-align: center;}}
+
+@media only screen and (min-width: 911px) and (max-width: 1280px) {.nav-attached { background-color:#ffffff00; column-gap: 7px;} .name { width: max-content;}.pic { float: none;}}
