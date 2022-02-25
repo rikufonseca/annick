@@ -22,3 +22,6 @@
 .up {
   margin: -3.5rem 0 0 0.5rem;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {.separated { width: 95vw; font-size: 0.8rem; flex-direction: column; margin-top: 18px;} .down { margin-bottom: 2rem; margin-top: 2rem;} .up { margin: -1.5rem 0 0 0.5rem;}}
+@media only screen and (min-width: 768px) and (max-width: 1280px) { .separated { width: 80vw}}
