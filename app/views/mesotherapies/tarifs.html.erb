@@ -1,0 +1,17 @@
+<div class="all-tarif">
+<%= link_to "< retour", menu_path, class:"page-back up" %>
+  <div class="price">
+    <h1 class="meso down"> LES TARIFS </h1>
+    <% @mesotherapies.each do |mesotherapie| %>
+      <div class="separated">
+        <div class="one">
+          <p class="text"> <%= mesotherapie.name %></p>
+        </div>
+        <div class="two">
+          <p class="text"><%= mesotherapie.time_one %> ~ <%= mesotherapie.price_one %> E /
+          <%= mesotherapie.time_two %> ~ <%= mesotherapie.price_two %>E </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

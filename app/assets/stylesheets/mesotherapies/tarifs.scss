@@ -1,0 +1,24 @@
+.separated {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  width: 47vw;
+  background: radial-gradient( #f8f6f6d3 10%, #ffffff18);
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 2rem;
+  padding: 0 16px 0 16px;
+}
+
+.down {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.up {
+  margin: -3.5rem 0 0 0.5rem;
+}

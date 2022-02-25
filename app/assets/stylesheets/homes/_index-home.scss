@@ -8,7 +8,7 @@
   text-decoration: inherit;
 }
 .back {
-  background-size:cover;
+  background-size: auto 940px;
 }
 
 .page-one {
@@ -139,10 +139,10 @@
 .visuallyshow {
   animation: fadein ease-in 850ms;
   display: block;
-  -webkit-animation: fadein ease-in 1000ms; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein ease-in 1000ms; /* Firefox < 16 */
-  -ms-animation: fadein ease-in 1000ms; /* Internet Explorer */
-  -o-animation: fadein ease-in 1000ms; /* Opera < 12.1 */
+  -webkit-animation: fadein ease-in 850ms; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein ease-in 850ms; /* Firefox < 16 */
+  -ms-animation: fadein ease-in 850ms; /* Internet Explorer */
+  -o-animation: fadein ease-in 850ms; /* Opera < 12.1 */
 }
 
 @keyframes fadein {

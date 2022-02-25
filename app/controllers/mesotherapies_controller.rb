@@ -8,6 +8,9 @@ class MesotherapiesController < ApplicationController
     @mesotherapie = Mesotherapie.find(params[:id])
   end
 
+  def tarifs
+  end
+
   private
 
   def set_mesotherapies
