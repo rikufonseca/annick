@@ -42,8 +42,8 @@ m2= Mesotherapie.create!(name: "Pierres Chaudes",
                     time_one: "1h00",
                     time_two: "1h30",
                     image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335571/voyages-des-sens/balinais_tsuha0.jpg",
-                    description: "ENERGETIQUE, DRAINANT ET RELAXANT
-Les pierres que j’utilise sont des pierres originaires des montagnes des Andes de l’Amérique du Sud",
+                    description: "ENERGETIQUE, DRAINANT ET RELAXANT",
+                    materials: "Les pierres que j’utilise sont des pierres originaires des montagnes des Andes de l’Amérique du Sud.",
                     origin: "Le massage aux Pierres Chaudes plonge ses racines dans des traditions millénaires liées à des cérémonies rituelles. A l’origine ce massage Amérindien se classe parmi les techniques de guérison utilisées par les sorciers pour soigner les membres de leur tribu. Ainsi ce soin primitif était associé aux médecines traditionnelles.
 On utilisait alors les pierres plongées dans les rivières, les morceaux de roches des montagnes, les galets des plages. Les pierres froides étaient utilisées pour ralentir les saignements des plaies ou de suite de couche. Les pierres chaudes soulageaient les muscles endoloris et atténuaient la douleur.
 La méthode requiert l’utilisation de pierres volcaniques de Basalte et de pierres de Marbre.

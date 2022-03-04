@@ -9,6 +9,7 @@
   <%= link_to "< retour", menu_path, class:"page-back" %>
   <div class="cont cont-one">
     <h2 class="meso descript"><%= @mesotherapie.description %></h2>
+    <h3 class="meso"><%= @mesotherapie.materials %></h3>
     <h1 class="meso title"> Massage <%= @mesotherapie.name %> </h1>
     <h3 class="meso duration"><%= @mesotherapie.time_one %> ~ <%= @mesotherapie.price_one %>  € / <%= @mesotherapie.time_two %> ~ <%= @mesotherapie.price_two %>  € </h3>
     <div class="section">
@@ -19,21 +20,21 @@
   </div>
   <div class="cont">
     <h4 class="meso second-cont sub"> SES CARACTERISTIQUES </h4>
-    <p class="text and"><%= @mesotherapie.caracteristic %></p>
+    <p class="and center"><%= @mesotherapie.caracteristic %></p>
   </div>
   <div class="cont">
     <h4 class="meso second-cont sub"> LES BIENFAITS </h4>
-    <p class="text and"><%= @mesotherapie.bienfait %></p>
+    <p class="and center"><%= @mesotherapie.bienfait %></p>
   </div>
   <div class="cont">
     <h4 class="meso second-cont sub"> PERIODE PRECAUNISEE POUR CE MASSAGE </h4>
-    <p class="text and"><%= @mesotherapie.time_precaunisation %></p>
+    <p class="and center"><%= @mesotherapie.time_precaunisation %></p>
   </div>
   <div class="cont">
     <h4 class="meso second-cont sub"> LA TECHNIQUE </h4>
-    <p class="text and"><%= @mesotherapie.technique %></p>
+    <p class="and center"><%= @mesotherapie.technique %></p>
   </div>
    <div class="cont colored">
-    <p class="text and"><%= @mesotherapie.motto %></p>
+    <p class="and center"><%= @mesotherapie.motto %></p>
   </div>
 </div>
