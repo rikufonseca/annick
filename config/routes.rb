@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get '/menu', to: 'mesotherapies#menu'
   get '/tarifs', to: 'mesotherapies#tarifs'
+  get '/precautions', to: 'mesotherapies#precautions'
   resources :mesotherapies, only: %i[index show]
 end
