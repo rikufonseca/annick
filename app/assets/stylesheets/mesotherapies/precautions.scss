@@ -2,5 +2,11 @@
   margin-top: -2rem;
 }
 .flex {
-  padding: 2em;
+  padding: 1em;
 }
+
+.desk {
+  margin: 0;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1280px) {.flex {padding: 2px; margin-top: 15px;} .cell {margin: 2px;} .new {margin-top: 2px;} .full {width: 90%}}
