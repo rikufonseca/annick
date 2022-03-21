@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get '/menu', to: 'mesotherapies#menu'
   get '/tarifs', to: 'mesotherapies#tarifs'
   get '/precautions', to: 'mesotherapies#precautions'
+  get '/presentation', to: 'mesotherapies#presentation'
   resources :mesotherapies, only: %i[index show]
 end

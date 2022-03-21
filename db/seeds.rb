@@ -7,7 +7,7 @@ m1= Mesotherapie.create!(name: "Lomi-Lomi",
                     price_two: "85",
                     time_one: "1h00",
                     time_two: "1h30",
-                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1647604287/voyages-des-sens/LOMI_LOMI_4_v73fbw.jpg",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1647872023/voyages-des-sens/LOMI_LOMI_zmt2i2.jpg",
                     description: "FLUIDE ET PROFOND - UNIFIANT ET PROTECTEUR.",
                     origin: "Comme le massage Ayurvédique, le massage Lomi-Lomi plonge ses racines dans des traditions millénaires. En provenance des îles Hawaï, il constitue l’une des branches de la médecine des guérisseurs polynésiens. Le terme « Lomi » signifie simplement « massage » le doublement du mot n’ayant en hawaïen pour but que d’insister sur son efficacité et son intensité.
 A l’origine, ce massage était un rituel traditionnel de purification accompagnant une cérémonie de guérison du corps, de l’esprit et de l’âme lors d’un renouveau, le passage à un nouvel état d’être. Il était pratiqué par exemple lors du passage de l’adolescence à l’âge adulte, et s’accompagnait de chants et de danses, la célébration se prolongeait sur plusieurs jours.
@@ -41,7 +41,7 @@ m2= Mesotherapie.create!(name: "Pierres Chaudes",
                     price_two: "105",
                     time_one: "1h00",
                     time_two: "1h30",
-                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1647604299/voyages-des-sens/PIERRES_CHAUDES_uo4xp4.jpg",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1647871929/voyages-des-sens/PIERRES_CHAUDES_1_zohlhm.jpg",
                     description: "ENERGETIQUE, DRAINANT ET RELAXANT",
                     materials: "Les pierres que j’utilise sont des pierres originaires des montagnes des Andes de l’Amérique du Sud.",
                     origin: "Le massage aux Pierres Chaudes plonge ses racines dans des traditions millénaires liées à des cérémonies rituelles. A l’origine ce massage Amérindien se classe parmi les techniques de guérison utilisées par les sorciers pour soigner les membres de leur tribu. Ainsi ce soin primitif était associé aux médecines traditionnelles.
@@ -108,7 +108,7 @@ m4= Mesotherapie.create!(name: "Californien",
                     price_two: "85",
                     time_one: "1h00",
                     time_two: "1h30",
-                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1647604278/voyages-des-sens/Californien_pvpqfx.webp",
+                    image: "https://res.cloudinary.com/rikufonseca/image/upload/v1644335664/voyages-des-sens/massage_fzd0ot.jpg",
                     origin: "Dans les années 1970 régnait l’atmosphère du New âge, propre à la Californie.
 Inscrite dans cette quête de bien-être, d’hédonisme et de reconnexion du corps et de l’esprit, le mouvement a participé à la naissance du massage Californien. Inspiré du massage Suédois, c’est à partir des années 1980, en Europe que sa pratique s’est surtout répandue. Il constitue une porte d’entrée idéale au monde merveilleux des massages pour celui ou celle qui n’a pas l’habitude d’avoir son corps manipulé.
 Ce massage est fait dans le plein accueil du ressenti de l’instant présent. C’est cette globalité qui donne la couleur si particulière au massage Californien. C’est pour cela qu’il recouvre toute une série d’appellations, telles que : «massage relationnel», «massage sensitif», « massage neurosensoriel», ou même «toucher du cœur.»",
