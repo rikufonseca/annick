@@ -8,7 +8,7 @@
   text-decoration: inherit;
 }
 .back {
-  background-size: auto 940px;
+  background-size: auto 1300px;
 }
 
 .page-one {
@@ -40,16 +40,17 @@
       font-size: 1.18em;
       font-weight: 500;
       text-align: center;
-      line-height: 44px;
+      line-height: 38px;
       width: fit-content;
       z-index:10;
       margin-top: 35px;
+      color: #1e1d1d;
     }
 
     .triangle {
         position: absolute;
         width: 65vw;
-        background: radial-gradient( #f8f6f6d3 10%, #ffffff18);
+        background: radial-gradient(#cdd39bc7 27%, #d9474759);
         transition:all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
         display:flex;
         justify-content:center;
@@ -85,11 +86,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 1.3em;
+      margin-top: 2.3em;
       height: 3.2rem;
       width: 3.2rem;
-      border: 1px solid #4E3E3E;
-      color: #4E3E3E;
+      border: 1px solid #bd6464;
+      color: #8b1e1e;
       border-radius: 50%;
       overflow:hidden;
       background-color: rgba(223, 223, 180, 0.123);
