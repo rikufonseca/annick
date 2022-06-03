@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   width: 47vw;
-  background: radial-gradient( #f8f6f6d3 10%, #ffffff18);
+  background: radial-gradient(#cdd39bc7 27%, #d9474759);
   margin: auto;
   font-size: 1.1rem;
   font-weight: 500;
@@ -15,12 +15,14 @@
 }
 
 .down {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
+  background: radial-gradient(#cdd39bc7 27%, #d9474759);
+  width: 100vw;
 }
 
 .up {
-  margin: -3.5rem 0 0 0.5rem;
+  margin: 0.4rem 0 0 0.5rem;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px)  {.separated { width: 95vw; font-size: 0.8rem; flex-direction: column; margin-top: 18px;} .down { margin-bottom: 2rem; margin-top: 2rem;} .up { margin: -1.5rem 0 0 0.5rem;}}

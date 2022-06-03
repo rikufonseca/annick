@@ -9,7 +9,7 @@
 }
 
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .time {
@@ -19,28 +19,26 @@
 
 .sub {
   font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .cont-one {
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .pic {
-  border-radius: 5px;
   margin-top: 23px;
+  box-shadow: 0 0 5px 2px #979363;
+  float: right;
+  margin-left: 28px;
 }
 
 .text {
   text-align: justify;
 }
 
-.pic {
-  float: right;
-  margin-left: 15px;
-}
-
 .section {
-  margin-top: -16px;
+  margin-top: 4px;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 910px) {.nav-attached { flex-direction: column; border-bottom: none;} .name { width: 100vw; margin: 0; border-radius: 0; border-bottom: 1px solid #4E3E3E; background: linear-gradient(#dbcfcf, #e9e2e2, #ffffff)}.page-back { margin: 8.5rem 0 0 0.5rem; font-size: 12px;} .descript { margin-top: 124px; margin-bottom: -70px;}.cont { padding: 2px; line-height: normal; font-size: 1em;} .first-cont { margin-top: 4rem;} .second-cont {margin-top: 1rem;} .pic { width: 193px; height: 132px; float:none; margin-top: 32px; margin-left: 0; margin-bottom: 24px;} .duration { font-size: 1rem; margin-top: -11px; margin-bottom: 1px;} .and { text-align: center;}}
